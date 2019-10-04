@@ -2,7 +2,7 @@
 qm.py
 Generate a simplified Sum Of products (SOP) from a list of decimal numbers where the truth table output is true.
 Don't Care conditions may be included.
-
+```
 eg:
 >>> tt = impStr2impList("0, 2, 3, 5..9")
 >>> tt
@@ -12,5 +12,5 @@ eg:
 [10, 11, 12, 13, 14, 15]
 >>> qmSimp(tt, dc)
 '!B!D + A + BD + C'
-
+```
 
