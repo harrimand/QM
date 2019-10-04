@@ -4,6 +4,7 @@ Generate a simplified Sum Of products (SOP) from a list of decimal numbers where
 Don't Care conditions may be included.
 ```
 eg:
+>>> from qm import *
 >>> tt = impStr2impList("0, 2, 3, 5..9")
 >>> tt
 [0, 2, 3, 5, 6, 7, 8, 9]
