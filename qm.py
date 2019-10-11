@@ -438,6 +438,8 @@ def sop2htm(sop):
         elif notVar:
             htmstr += htmb + c + htma
             notVar = not notVar
+        elif c == ' ':
+            htmstr += "<nbsp><nbsp>"
         else:
             htmstr += "<b>" + c + "</b>"
     return(htmstr)
@@ -582,6 +584,5 @@ def qmSimp(thing, DontCare=[], includeVars=""):
         print("Thing is not a String or a List")
 
 #------------------------------------------------------------
-
 
 

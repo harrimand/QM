@@ -1,6 +1,5 @@
 #! /bin/opt/env python
 
-
 def htmTT(sop):
     from qm import getVars, sop2imps
     V = getVars(sop)
@@ -51,6 +50,7 @@ def htm(sop):
     <style>\n\
     table{\n\
     width:25%;\n\
+    margin-left: 200px;\n\
     }\n\
     table, th, td {\n\
     border: 1px solid black;\n\
@@ -58,7 +58,7 @@ def htm(sop):
     }\n\
     th, td {\n\
     padding: 15px;\n\
-    text-align: left;\n\
+    text-align: center;\n\
     }\n\
     table#t01 tr:nth-child(even) {\n\
     background-color: #eee;\n\
@@ -69,6 +69,9 @@ def htm(sop):
     table#t01 th {\n\
     background-color: black;\n\
     color: white;\n\
+    }\n\
+    table#t01 td {\n\
+    text-align: center;\n\
     }\n\
     </style>\n'
 
